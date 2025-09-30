@@ -1,8 +1,9 @@
-# Project Name
-Put here a short paragraph describing your project. 
-Adding an screenshot or a mockup of your application in action would be nice.  
+# "Type Wars"
 
-![This is a screenshot.](images.png)
+‘Type Wars’ would be a Discord bot designed to implement multiple typing-based games. There would be three modes, both can be played as a single player, or multiplayer. Game #1, the player/s is/are given a word and must spell it letter by letter between messages. Game #2, player/s is/are given a definition, length of said word, and must spell out what the word is. Game #3, player/s is/are given a word and must type it the fastest (this game mode would include longer words that are harder to spell off a whim).  
+
+<img width="1558" height="373" alt="image" src="https://github.com/user-attachments/assets/785e72d6-37e5-4a0a-9e2e-a77bab330089" />
+
 # How to run
 Provide here instructions on how to use your application.   
 - Download the latest binary from the Release section on the right on GitHub.  
