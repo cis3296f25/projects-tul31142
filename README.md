@@ -4,26 +4,17 @@
 
 <img width="1558" height="373" alt="image" src="https://github.com/user-attachments/assets/785e72d6-37e5-4a0a-9e2e-a77bab330089" />
 
-# How to run
-Provide here instructions on how to use your application.   
-- Download the latest binary from the Release section on the right on GitHub.  
-- On the command line uncompress using
-```
-tar -xzf  
-```
-- On the command line run with
-```
-./hello
-```
-- You will see Hello World! on your terminal. 
+Background
 
-# How to contribute
-Follow this project board to know the latest status of the project: [http://...]([http://...])  
+‘Type War’ should preferably be played on an empty channel, to avoid the spamming of messages in regularly used channels. There are two ways to activate the bot, depending on if one wants to play as a single player, or multiplayer.
+As a single player, you can activate the bot with /tw. Different commands, like /tw list, will show what games can be played and their descriptions. Choosing /tw (1, 2 or 3) will activate the game in single player mode.
+For multiplayer mode, player #1 must mention player #2 in a Discord message, as well as the command.
+Ex. /tw @player#2 (1, 2, or 3)
+Once the message is sent out, player #2 must accept the challenge before the game proceeds. If player #2 doesn’t respond within 1 minute, the bot will cancel the request.
 
-### How to build
-- Use this github repository: ... 
-- Specify what branch to use for a more stable release or for cutting edge development.  
-- Use InteliJ 11
-- Specify additional library to download if needed 
-- What file and target to compile and run. 
-- What is expected to happen when the app start. 
+Required Resources
+
+Language: Python
+API: discord.py
+Creating a Bot account: https://discordpy.readthedocs.io/en/stable/discord.html
+Discord Developer Portal: https://discord.com/developers/docs/intro
